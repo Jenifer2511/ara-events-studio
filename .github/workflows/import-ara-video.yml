@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - '.github/import-payload/**'
+      - '.github/workflows/import-ara-video.yml'
 permissions:
   contents: write
 jobs:
