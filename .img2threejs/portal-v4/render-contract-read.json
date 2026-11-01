@@ -1,0 +1,9 @@
+{
+  "read": [
+    "grimoire/review/gates_reference.md",
+    "grimoire/review/self_correction.md",
+    "grimoire/readiness/joint_attachment.md",
+    "grimoire/build/geometry_patterns.md"
+  ],
+  "renderer": "offscreen EGL/GLES actual generated geometry, map-stripped blockout preview; no browser/Three PBR equivalence claimed"
+}

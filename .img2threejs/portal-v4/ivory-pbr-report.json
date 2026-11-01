@@ -1,0 +1,85 @@
+{
+  "ok": true,
+  "verdict": "pass",
+  "confidence": 0.856,
+  "estimatedFidelity": 0.856,
+  "targetThreshold": 0.7,
+  "materialId": "ivory",
+  "sourceImage": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/ivory-crop.png",
+  "outDir": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/material-evidence/ivory",
+  "palette": [
+    "#E1CFB8",
+    "#DAC5AB",
+    "#EBDAC2",
+    "#CBB28F",
+    "#AC885E"
+  ],
+  "maps": {
+    "albedo": {
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/material-evidence/ivory/ivory_albedo.png",
+      "url": "ivory_albedo.png",
+      "channel": "albedo",
+      "source": "reference-pixel-extraction"
+    },
+    "roughness": {
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/material-evidence/ivory/ivory_roughness.png",
+      "url": "ivory_roughness.png",
+      "channel": "roughness",
+      "source": "reference-pixel-extraction"
+    },
+    "height": {
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/material-evidence/ivory/ivory_height.png",
+      "url": "ivory_height.png",
+      "channel": "height",
+      "source": "reference-pixel-extraction"
+    },
+    "normal": {
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/material-evidence/ivory/ivory_normal.png",
+      "url": "ivory_normal.png",
+      "channel": "normal",
+      "source": "reference-pixel-extraction"
+    },
+    "ao": {
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/material-evidence/ivory/ivory_ao.png",
+      "url": "ivory_ao.png",
+      "channel": "ao",
+      "source": "reference-pixel-extraction"
+    }
+  },
+  "diagnostics": {
+    "sourceWidth": 85,
+    "sourceHeight": 250,
+    "mapSize": 1024,
+    "cropBBoxPixels": {
+      "x": 0,
+      "y": 1,
+      "width": 85,
+      "height": 249
+    },
+    "mask": {
+      "backgroundColor": "#E3D5C1",
+      "backgroundNoise": 69.383,
+      "transparentPixelFraction": 0.0,
+      "foregroundCoverage": 0.2626
+    },
+    "mapStats": {
+      "valueRange": 0.2692,
+      "heightP90Gradient": 0.03607,
+      "roughnessBase": 0.683,
+      "roughnessVariation": 0.062,
+      "normalStrength": 0.199,
+      "blurRadius": 21
+    },
+    "palette": [
+      "#E1CFB8",
+      "#DAC5AB",
+      "#EBDAC2",
+      "#CBB28F",
+      "#AC885E"
+    ]
+  },
+  "warnings": [
+    "single-image inverse rendering cannot prove true physical PBR; confidence is capped"
+  ],
+  "limitation": "single-image PBR extraction is an estimate; 70%+ extraction confidence still needs render screenshot review"
+}

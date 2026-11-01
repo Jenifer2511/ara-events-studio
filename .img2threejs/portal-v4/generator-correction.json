@@ -1,0 +1,1 @@
+{"reason": "Generator ATTACHMENT_PRIMITIVES includes curve-sweep, overriding authored curve geometry with endpoint cylinder. Keep attachment metadata; disable endpoint-derived geometry only for the two authored decorative sweeps.", "matches": 2}

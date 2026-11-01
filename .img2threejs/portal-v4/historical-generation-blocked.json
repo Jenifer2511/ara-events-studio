@@ -1,0 +1,22 @@
+{
+  "status": "BLOCKED",
+  "phase": "strict-quality",
+  "gate": "strict-quality",
+  "artifact": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/object-sculpt-spec.json",
+  "metric": {
+    "failureCount": 3,
+    "qualityWarningCount": 3
+  },
+  "cause": [
+    "strict quality failure: material 'ivory' referencePbr.usable must be true",
+    "strict quality failure: material 'brass' referencePbr.usable must be true",
+    "strict quality failure: material 'stone' referencePbr.usable must be true"
+  ],
+  "warnings": [
+    "quality: material 'ivory' referencePbr.usable must be true",
+    "quality: material 'brass' referencePbr.usable must be true",
+    "quality: material 'stone' referencePbr.usable must be true"
+  ],
+  "requestedPass": null,
+  "nextAction": "refine-spec: author a subject-specific ObjectSculptSpec, then rerun strict-quality"
+}

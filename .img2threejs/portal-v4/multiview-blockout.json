@@ -1,0 +1,20 @@
+{
+  "referenceAreaFraction": 0.5198813186813187,
+  "angles": [
+    {
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/blockout-three-quarter.png",
+      "areaFraction": 0.47506373626373627,
+      "ratio": 0.913792666119909,
+      "degenerate": false
+    },
+    {
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/blockout-right.png",
+      "areaFraction": 0.13789010989010989,
+      "ratio": 0.26523382344237484,
+      "degenerate": false
+    }
+  ],
+  "degenerate": false,
+  "collapseRatio": 0.15,
+  "note": "deterministic; zero token; a flat-plane-faking-a-volume collapses in silhouette area when orbited"
+}

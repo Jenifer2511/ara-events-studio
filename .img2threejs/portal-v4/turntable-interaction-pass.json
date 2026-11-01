@@ -1,0 +1,98 @@
+{
+  "angles": [
+    {
+      "azimuth": 0.0,
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/interaction-pass-front.png",
+      "isReference": true,
+      "segmented": true,
+      "holed": false,
+      "interiorHolePixelCount": 561,
+      "interiorHoleFraction": 0.0023654916512059368,
+      "largestHolePixelCount": 561,
+      "largestHoleBBox": {
+        "x": 349,
+        "y": 32,
+        "width": 1,
+        "height": 561
+      },
+      "areaFraction": 0.5212307692307693,
+      "ratio": 1.0,
+      "degenerate": false
+    },
+    {
+      "azimuth": 90.0,
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/interaction-pass-right.png",
+      "isReference": false,
+      "segmented": true,
+      "holed": false,
+      "interiorHolePixelCount": 0,
+      "interiorHoleFraction": 0.0,
+      "largestHolePixelCount": 0,
+      "largestHoleBBox": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "areaFraction": 0.13825054945054946,
+      "ratio": 0.26523865744644964,
+      "degenerate": false
+    },
+    {
+      "azimuth": 180.0,
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/interaction-pass-rear.png",
+      "isReference": false,
+      "segmented": true,
+      "holed": false,
+      "interiorHolePixelCount": 1122,
+      "interiorHoleFraction": 0.004784158550937218,
+      "largestHolePixelCount": 1122,
+      "largestHoleBBox": {
+        "x": 349,
+        "y": 32,
+        "width": 2,
+        "height": 561
+      },
+      "areaFraction": 0.5154373626373626,
+      "ratio": 0.9888851408331927,
+      "degenerate": false
+    },
+    {
+      "azimuth": 270.0,
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/interaction-pass-left.png",
+      "isReference": false,
+      "segmented": true,
+      "holed": false,
+      "interiorHolePixelCount": 0,
+      "interiorHoleFraction": 0.0,
+      "largestHolePixelCount": 0,
+      "largestHoleBBox": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "areaFraction": 0.13825054945054946,
+      "ratio": 0.26523865744644964,
+      "degenerate": false
+    }
+  ],
+  "referenceAzimuth": 0.0,
+  "requiredAzimuths": [
+    0.0,
+    90.0,
+    180.0,
+    270.0
+  ],
+  "azimuthTolerance": 5.0,
+  "missingAzimuths": [],
+  "covered": true,
+  "collapseRatio": 0.15,
+  "degenerate": false,
+  "allowHoles": false,
+  "holed": false,
+  "unsegmentedAzimuths": [],
+  "segmentationReliable": true,
+  "passed": true,
+  "note": "deterministic; zero token; mandatory azimuth coverage catches off-axis-only defects, interior-hole flood fill catches silhouette-enclosed background that an area-only check misses"
+}

@@ -1,0 +1,186 @@
+{
+  "scanMethod": "component-zones",
+  "targetMinDetails": 9,
+  "details": [
+    {
+      "id": "arch-rim",
+      "kind": "bevel",
+      "description": "Thin bevel catches light around arch contour",
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "units": "normalized"
+      },
+      "scale": "meso",
+      "affects": "geometry and surface response",
+      "mapsTo": {
+        "type": "component.localFeatures",
+        "ref": "frame/arch-rim"
+      },
+      "evidenceRef": "full-object",
+      "confidence": 0.85
+    },
+    {
+      "id": "central-seam",
+      "kind": "seam",
+      "description": "Narrow true gap between two closed leaves",
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "units": "normalized"
+      },
+      "scale": "micro",
+      "affects": "geometry and surface response",
+      "mapsTo": {
+        "type": "component.localFeatures",
+        "ref": "leftDoor/central-seam"
+      },
+      "evidenceRef": "full-object",
+      "confidence": 0.85
+    },
+    {
+      "id": "ivory-grain",
+      "kind": "ridge",
+      "description": "Fine plaster-like panel grain, not baked illumination",
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "units": "normalized"
+      },
+      "scale": "meso",
+      "affects": "geometry and surface response",
+      "mapsTo": {
+        "type": "component.localFeatures",
+        "ref": "leftDoor/ivory-grain"
+      },
+      "evidenceRef": "full-object",
+      "confidence": 0.85
+    },
+    {
+      "id": "brass-polish",
+      "kind": "gloss",
+      "description": "Low roughness narrow champagne brass trim",
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "units": "normalized"
+      },
+      "scale": "micro",
+      "affects": "geometry and surface response",
+      "mapsTo": {
+        "type": "component.localFeatures",
+        "ref": "frame/brass-polish"
+      },
+      "evidenceRef": "full-object",
+      "confidence": 0.85
+    },
+    {
+      "id": "hinge-barrels",
+      "kind": "fastener",
+      "description": "Four cylindrical hinge barrels at lateral jambs",
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "units": "normalized"
+      },
+      "scale": "micro",
+      "affects": "geometry and surface response",
+      "mapsTo": {
+        "type": "component.localFeatures",
+        "ref": "hingeA/hinge-barrels"
+      },
+      "evidenceRef": "full-object",
+      "confidence": 0.85
+    },
+    {
+      "id": "stem-relief",
+      "kind": "ridge",
+      "description": "Raised curved botanical stem",
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "units": "normalized"
+      },
+      "scale": "meso",
+      "affects": "geometry and surface response",
+      "mapsTo": {
+        "type": "component.localFeatures",
+        "ref": "leftStem/stem-relief"
+      },
+      "evidenceRef": "full-object",
+      "confidence": 0.85
+    },
+    {
+      "id": "leaf-relief",
+      "kind": "ridge",
+      "description": "Pointed leaf relief with shallow volume",
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "units": "normalized"
+      },
+      "scale": "meso",
+      "affects": "geometry and surface response",
+      "mapsTo": {
+        "type": "component.localFeatures",
+        "ref": "leafA/leaf-relief"
+      },
+      "evidenceRef": "full-object",
+      "confidence": 0.85
+    },
+    {
+      "id": "plinth-rim",
+      "kind": "bevel",
+      "description": "Oval low plinth rim",
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "units": "normalized"
+      },
+      "scale": "meso",
+      "affects": "geometry and surface response",
+      "mapsTo": {
+        "type": "component.localFeatures",
+        "ref": "root/plinth-rim"
+      },
+      "evidenceRef": "full-object",
+      "confidence": 0.85
+    },
+    {
+      "id": "stone-pores",
+      "kind": "groove",
+      "description": "Low amplitude stone-like base pores",
+      "region": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "units": "normalized"
+      },
+      "scale": "micro",
+      "affects": "geometry and surface response",
+      "mapsTo": {
+        "type": "component.localFeatures",
+        "ref": "root/stone-pores"
+      },
+      "evidenceRef": "full-object",
+      "confidence": 0.85
+    }
+  ]
+}

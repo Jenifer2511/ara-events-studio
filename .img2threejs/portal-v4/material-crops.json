@@ -1,0 +1,24 @@
+{
+  "source": "/workspace/sites/ara-events-studio/dist/assets/atmosphere/portal-reference-v4.png",
+  "regions": {
+    "ivory": [
+      565,
+      400,
+      650,
+      650
+    ],
+    "brass": [
+      326,
+      500,
+      343,
+      740
+    ],
+    "stone": [
+      580,
+      1110,
+      820,
+      1155
+    ]
+  },
+  "note": "Observed material-local crops; dimensions constrain extraction confidence. No low-confidence override allowed."
+}

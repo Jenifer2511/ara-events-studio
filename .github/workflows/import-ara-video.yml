@@ -1,0 +1,37 @@
+name: Complete ARA video import
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/import-payload/**'
+permissions:
+  contents: write
+jobs:
+  import-video:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore and verify original desktop video
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64, pathlib, subprocess
+          parts = sorted(pathlib.Path('.github/import-payload').glob('desktop-video.*.base64'))
+          assert len(parts) == 2, 'Missing video part'
+          data = base64.b64decode(''.join(p.read_text() for p in parts), validate=True)
+          assert len(data) == 13332295, 'Incorrect video size'
+          target = pathlib.Path('dist/assets/portal/portal-desktop.mp4')
+          target.write_bytes(data)
+          actual = subprocess.check_output(['git', 'hash-object', str(target)], text=True).strip()
+          assert actual == '383182dfed847eaed5ad7052c0ab1cda47a192c1', 'Video hash mismatch'
+          print('Original desktop video verified:', actual)
+          PY
+      - name: Commit complete project
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/assets/portal/portal-desktop.mp4
+          git rm -r .github/import-payload
+          git commit -m "Complete ARA media import with verified original desktop video"
+          git push origin HEAD:main

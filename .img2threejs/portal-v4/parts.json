@@ -1,0 +1,151 @@
+{
+  "model": "Stylized ivory and brass double-door arch portal",
+  "parts": [
+    {
+      "name": "root",
+      "kind": "part",
+      "module": "root",
+      "triangles": 4136
+    },
+    {
+      "name": "frame",
+      "kind": "part",
+      "module": "frame",
+      "triangles": 280
+    },
+    {
+      "name": "leftDoor",
+      "kind": "part",
+      "module": "leftDoor",
+      "triangles": 1712
+    },
+    {
+      "name": "hingeA",
+      "kind": "part",
+      "module": "hingeA",
+      "triangles": 224
+    },
+    {
+      "name": "leftHinge1",
+      "kind": "part",
+      "module": "leftHinge1",
+      "triangles": 224
+    },
+    {
+      "name": "leftStem",
+      "kind": "part",
+      "module": "leftStem",
+      "triangles": 652
+    },
+    {
+      "name": "leafA",
+      "kind": "part",
+      "module": "leafA",
+      "triangles": 68
+    },
+    {
+      "name": "leftLeaf1",
+      "kind": "part",
+      "module": "leftLeaf1",
+      "triangles": 68
+    },
+    {
+      "name": "leftLeaf2",
+      "kind": "part",
+      "module": "leftLeaf2",
+      "triangles": 68
+    },
+    {
+      "name": "leftLeaf3",
+      "kind": "part",
+      "module": "leftLeaf3",
+      "triangles": 68
+    },
+    {
+      "name": "leftLeaf4",
+      "kind": "part",
+      "module": "leftLeaf4",
+      "triangles": 68
+    },
+    {
+      "name": "leftLeaf5",
+      "kind": "part",
+      "module": "leftLeaf5",
+      "triangles": 68
+    },
+    {
+      "name": "leftLeaf6",
+      "kind": "part",
+      "module": "leftLeaf6",
+      "triangles": 68
+    },
+    {
+      "name": "rightDoor",
+      "kind": "part",
+      "module": "rightDoor",
+      "triangles": 1712
+    },
+    {
+      "name": "rightHinge0",
+      "kind": "part",
+      "module": "rightHinge0",
+      "triangles": 224
+    },
+    {
+      "name": "rightHinge1",
+      "kind": "part",
+      "module": "rightHinge1",
+      "triangles": 224
+    },
+    {
+      "name": "rightStem",
+      "kind": "part",
+      "module": "rightStem",
+      "triangles": 652
+    },
+    {
+      "name": "rightLeaf0",
+      "kind": "part",
+      "module": "rightLeaf0",
+      "triangles": 68
+    },
+    {
+      "name": "rightLeaf1",
+      "kind": "part",
+      "module": "rightLeaf1",
+      "triangles": 68
+    },
+    {
+      "name": "rightLeaf2",
+      "kind": "part",
+      "module": "rightLeaf2",
+      "triangles": 68
+    },
+    {
+      "name": "rightLeaf3",
+      "kind": "part",
+      "module": "rightLeaf3",
+      "triangles": 68
+    },
+    {
+      "name": "rightLeaf4",
+      "kind": "part",
+      "module": "rightLeaf4",
+      "triangles": 68
+    },
+    {
+      "name": "rightLeaf5",
+      "kind": "part",
+      "module": "rightLeaf5",
+      "triangles": 68
+    },
+    {
+      "name": "rightLeaf6",
+      "kind": "part",
+      "module": "rightLeaf6",
+      "triangles": 68
+    }
+  ],
+  "unnamedMeshes": 0,
+  "integralMeshes": 0
+}

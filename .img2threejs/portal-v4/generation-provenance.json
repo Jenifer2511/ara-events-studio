@@ -1,0 +1,9 @@
+{
+  "sourceFilmPoster": "/workspace/sites/ara-events-studio/dist/assets/portal/poster.webp",
+  "generatedReference": "/workspace/sites/ara-events-studio/dist/assets/atmosphere/portal-reference-v4.png",
+  "tool": "built-in image_gen",
+  "transparentBackground": true,
+  "outputSource": "/workspace/scratch/019c71ef7db5/generated_images/exec-1b0195c0-0a98-4fa4-a5b3-ea80109c23ea.png",
+  "prompt": "Isolated stylized ivory botanical double-door arch, champagne brass trim, low oval plinth, simplified motifs, slight8deg yaw, studio lighting, true alpha; no wall/floor/venue, text/logo/watermark.",
+  "relation": "Reference-based new concept, not exact venue or recovered CAD"
+}

@@ -1,0 +1,98 @@
+{
+  "angles": [
+    {
+      "azimuth": 0.0,
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/structural-pass-front.png",
+      "isReference": true,
+      "segmented": true,
+      "holed": false,
+      "interiorHolePixelCount": 561,
+      "interiorHoleFraction": 0.0023626026531901453,
+      "largestHolePixelCount": 561,
+      "largestHoleBBox": {
+        "x": 349,
+        "y": 32,
+        "width": 1,
+        "height": 561
+      },
+      "areaFraction": 0.5218681318681319,
+      "ratio": 1.0,
+      "degenerate": false
+    },
+    {
+      "azimuth": 90.0,
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/structural-pass-right.png",
+      "isReference": false,
+      "segmented": true,
+      "holed": false,
+      "interiorHolePixelCount": 0,
+      "interiorHoleFraction": 0.0,
+      "largestHolePixelCount": 0,
+      "largestHoleBBox": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "areaFraction": 0.13789010989010989,
+      "ratio": 0.2642240471678248,
+      "degenerate": false
+    },
+    {
+      "azimuth": 180.0,
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/structural-pass-rear.png",
+      "isReference": false,
+      "segmented": true,
+      "holed": false,
+      "interiorHolePixelCount": 1122,
+      "interiorHoleFraction": 0.004782119476268412,
+      "largestHolePixelCount": 1122,
+      "largestHoleBBox": {
+        "x": 349,
+        "y": 32,
+        "width": 2,
+        "height": 561
+      },
+      "areaFraction": 0.5156571428571428,
+      "ratio": 0.9880985470625394,
+      "degenerate": false
+    },
+    {
+      "azimuth": 270.0,
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/structural-pass-left.png",
+      "isReference": false,
+      "segmented": true,
+      "holed": false,
+      "interiorHolePixelCount": 0,
+      "interiorHoleFraction": 0.0,
+      "largestHolePixelCount": 0,
+      "largestHoleBBox": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "areaFraction": 0.13789010989010989,
+      "ratio": 0.2642240471678248,
+      "degenerate": false
+    }
+  ],
+  "referenceAzimuth": 0.0,
+  "requiredAzimuths": [
+    0.0,
+    90.0,
+    180.0,
+    270.0
+  ],
+  "azimuthTolerance": 5.0,
+  "missingAzimuths": [],
+  "covered": true,
+  "collapseRatio": 0.15,
+  "degenerate": false,
+  "allowHoles": false,
+  "holed": false,
+  "unsegmentedAzimuths": [],
+  "segmentationReliable": true,
+  "passed": true,
+  "note": "deterministic; zero token; mandatory azimuth coverage catches off-axis-only defects, interior-hole flood fill catches silhouette-enclosed background that an area-only check misses"
+}

@@ -1,0 +1,5 @@
+{
+  "applies": false,
+  "reason": "Identity is shape and raised botanical relief, not a painted skin or surface design. Use geometric relief and extracted material-local PBR evidence; do not project original film lighting/background onto meshes.",
+  "fidelityScope": "stylized generated-concept interpretation"
+}

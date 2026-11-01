@@ -1,0 +1,14 @@
+{
+  "admitted": true,
+  "reasons": [],
+  "provenance": {
+    "viewpoint": "front",
+    "sourcePath": "/workspace/sites/ara-events-studio/dist/assets/atmosphere/portal-reference-v4.png",
+    "width": 1303,
+    "height": 1207,
+    "foregroundCoverage": 0.475,
+    "largestComponentFraction": 1.0,
+    "pHash": 17846828026768319690,
+    "duplicateOfHash": null
+  }
+}

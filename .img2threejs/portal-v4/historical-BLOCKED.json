@@ -1,0 +1,38 @@
+{
+  "status": "blocked-at-reference-admission",
+  "factoryEmitted": false,
+  "reference": "/workspace/sites/ara-events-studio/dist/assets/portal/poster.webp",
+  "technicalProbe": "pass; source1440x810, isolated crop830x780",
+  "attempts": [
+    {
+      "evidence": "admission.json",
+      "input": "reference-portal.png",
+      "exitCode": 1,
+      "admitted": false,
+      "foregroundCoverage": 0.9992,
+      "maximumAllowed": 0.97
+    },
+    {
+      "evidence": "admission-full.json",
+      "input": "reference-full.png",
+      "exitCode": 1,
+      "admitted": false,
+      "foregroundCoverage": 0.9753,
+      "maximumAllowed": 0.97
+    }
+  ],
+  "reason": "Foreground cannot be isolated against the similarly colored beige background by the required reference-admission gate. No pass threshold was changed, no invented mask/background padding was introduced, and failed admission was not marked passed or skipped.",
+  "neededToResume": "A genuinely isolated door reference, another view with sufficient background contrast, or valid explicit segmentation evidence for the same target.",
+  "laterRenderLimitation": "Main agent reports browser WebGL disabled. Python moderngl, pyrender, OpenGL and trimesh are not installed; no offscreen EGL rendering path was established. This is not the present stopping gate.",
+  "completedEvidence": [
+    "image-analysis.json",
+    "suitability.json",
+    "probe.json",
+    "probe-full.json",
+    "admission.json",
+    "admission-full.json",
+    "reference-provenance.json",
+    "concept-plan.json"
+  ],
+  "unseenPassesMarked": false
+}

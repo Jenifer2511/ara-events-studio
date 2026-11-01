@@ -1,0 +1,20 @@
+{
+  "referenceAreaFraction": 0.5212307692307693,
+  "angles": [
+    {
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/interaction-pass-three-quarter.png",
+      "areaFraction": 0.47374945054945056,
+      "ratio": 0.9089053803339517,
+      "degenerate": false
+    },
+    {
+      "path": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/interaction-pass-right.png",
+      "areaFraction": 0.13825054945054946,
+      "ratio": 0.26523865744644964,
+      "degenerate": false
+    }
+  ],
+  "degenerate": false,
+  "collapseRatio": 0.15,
+  "note": "deterministic; zero token; a flat-plane-faking-a-volume collapses in silhouette area when orbited"
+}

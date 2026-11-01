@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "checks": {
+    "silhouetteIoU": 0.875,
+    "aspectRatioDelta": 0.0244,
+    "scaleDelta": 0.0634,
+    "bilateralSymmetryError": 0.0094,
+    "colorDelta": {
+      "checked": 24,
+      "maxDeltaE": 49.67,
+      "perComponent": [
+        {
+          "componentId": null,
+          "deltaE": 17.27
+        },
+        {
+          "componentId": null,
+          "deltaE": 49.67
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 49.67
+        },
+        {
+          "componentId": null,
+          "deltaE": 49.67
+        },
+        {
+          "componentId": null,
+          "deltaE": 49.67
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 49.67
+        },
+        {
+          "componentId": null,
+          "deltaE": 49.67
+        },
+        {
+          "componentId": null,
+          "deltaE": 49.67
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        },
+        {
+          "componentId": null,
+          "deltaE": 15.0
+        }
+      ],
+      "gated": false
+    }
+  },
+  "failures": [],
+  "maskWarnings": [],
+  "renderHash": "f2b74242c34d614d",
+  "passId": "blockout",
+  "mapStrippedRender": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/blockout-front.png"
+}

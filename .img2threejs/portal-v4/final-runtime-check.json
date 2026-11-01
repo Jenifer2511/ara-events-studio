@@ -1,0 +1,40 @@
+{
+  "triangles": 4136,
+  "geometries": 24,
+  "materials": 3,
+  "textureRequests": 15,
+  "uniqueUrls": 15,
+  "urls": [
+    "/assets/atmosphere/materials/production/ivory_albedo.png",
+    "/assets/atmosphere/materials/production/ivory_roughness.png",
+    "/assets/atmosphere/materials/production/ivory_height.png",
+    "/assets/atmosphere/materials/production/ivory_normal.png",
+    "/assets/atmosphere/materials/production/ivory_ao.png",
+    "/assets/atmosphere/materials/production/brass_albedo.png",
+    "/assets/atmosphere/materials/production/brass_roughness.png",
+    "/assets/atmosphere/materials/production/brass_height.png",
+    "/assets/atmosphere/materials/production/brass_normal.png",
+    "/assets/atmosphere/materials/production/brass_ao.png",
+    "/assets/atmosphere/materials/production/stone_albedo.png",
+    "/assets/atmosphere/materials/production/stone_roughness.png",
+    "/assets/atmosphere/materials/production/stone_height.png",
+    "/assets/atmosphere/materials/production/stone_normal.png",
+    "/assets/atmosphere/materials/production/stone_ao.png"
+  ],
+  "missing": [],
+  "bounds": [
+    3.700000047683716,
+    4.379999812841415,
+    1.7999999523162842
+  ],
+  "readyBefore": false,
+  "readyAfter": true,
+  "restRotations": [
+    0,
+    0
+  ],
+  "disposedTextures": 15,
+  "disposedMaterials": 3,
+  "disposedGeometries": 24,
+  "passed": true
+}

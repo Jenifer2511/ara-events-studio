@@ -1,0 +1,143 @@
+{
+  "status": "intake-only; not an admitted ObjectSculptSpec and not implementation-ready",
+  "acceptedApproximation": "Stylized ivory/brass arched double-door portal; hidden thickness/rear faces inferred; not exact botanical engraving fidelity.",
+  "intendedFactorySignature": "createPortalModel(THREE) -> {group,leftDoor,rightDoor,frame,plinth,photoAnchors,dispose}",
+  "coordinateConvention": {
+    "up": "+Y",
+    "front": "+Z",
+    "symmetryPlane": "x=0",
+    "inferredDoorWidth": 2.8,
+    "inferredDoorHeight": 3.75,
+    "inferredArchRadius": 1.4,
+    "inferredStraightJambHeight": 2.35
+  },
+  "plannedHierarchy": [
+    {
+      "id": "portal",
+      "kind": "Group",
+      "children": [
+        "frame",
+        "leftHinge",
+        "rightHinge",
+        "plinth",
+        "photoAnchors"
+      ]
+    },
+    {
+      "id": "frame",
+      "topologyClass": "assembled-solid",
+      "strategy": "Extruded closed outer arch ring with an actual opening; no solid slab behind open doors."
+    },
+    {
+      "id": "leftHinge",
+      "pivot": [
+        -1.4,
+        0,
+        0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "children": [
+        "leftDoor"
+      ]
+    },
+    {
+      "id": "rightHinge",
+      "pivot": [
+        1.4,
+        0,
+        0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "children": [
+        "rightDoor"
+      ]
+    },
+    {
+      "id": "leftDoor",
+      "topologyClass": "assembled-solid",
+      "strategy": "Shallow extruded half-arch profile in local hinge coordinates; front ivory panel plus narrow brass perimeter/seam. Inferred thickness0.08."
+    },
+    {
+      "id": "rightDoor",
+      "topologyClass": "assembled-solid",
+      "strategy": "Reflect x of left leaf profile only, preserve normal/winding, do not simulate bilateral shape using rotation."
+    },
+    {
+      "id": "botanicalRelief",
+      "topologyClass": "surface-relief",
+      "strategy": "If later admitted, simplified branching curves plus instanced low-poly leaf relief in each panel; no projection of the source lighting or background."
+    },
+    {
+      "id": "plinth",
+      "topologyClass": "assembled-solid",
+      "strategy": "Short oval cylinder centered under doorway with top contact; scaled x/z ellipse and reusable stone material."
+    },
+    {
+      "id": "photoAnchors",
+      "kind": "Group[]",
+      "strategy": "Three presentation anchors around portal. Photographs are UI/gallery planes, not reference-derived portal geometry."
+    }
+  ],
+  "materialPlan": [
+    {
+      "id": "ivory",
+      "type": "MeshStandardMaterial",
+      "metalness": 0,
+      "roughness": 0.72,
+      "color": "#e4d4b7",
+      "confidence": "inferred, not measured albedo"
+    },
+    {
+      "id": "brass",
+      "type": "MeshStandardMaterial",
+      "metalness": 1,
+      "roughness": 0.36,
+      "color": "#ac8955",
+      "confidence": "inferred alloy/roughness"
+    },
+    {
+      "id": "stone",
+      "type": "MeshStandardMaterial",
+      "metalness": 0,
+      "roughness": 0.86,
+      "color": "#cfc1a5",
+      "confidence": "inferred matte stone"
+    }
+  ],
+  "actionPlan": {
+    "leftDoorOpen": "rotation.y from0 to-1.15rad at outside hinge",
+    "rightDoorOpen": "rotation.y from0 to+1.15rad at outside hinge",
+    "explanation": "Mirror signs depend on camera/front convention and must be visually checked before use. No interaction pass reviewed."
+  },
+  "performancePlan": {
+    "triangleLimit": 20000,
+    "sharedMaterials": 3,
+    "curveSegments": 24,
+    "extrudeSteps": 1,
+    "bevelSegments": 2,
+    "instancedLeaves": true,
+    "shadowMaps": false,
+    "particles": false
+  },
+  "requiredEvidenceBeforeCode": [
+    "Admitted isolated reference/silhouette or valid segmentation evidence",
+    "Local core_3d spec search",
+    "Complete object-specific assessment/detail inventory/projection/material applicability",
+    "Strict-quality validation"
+  ],
+  "requiredEvidenceBeforeCompletion": [
+    "Current-pass renders from actual renderer, front and meaningful off-axis views",
+    "Deterministic Tier1/interior/multi-angle/attachment gates",
+    "Comparison sheet and agent visual feature review for each unlocked pass",
+    "Part coverage and action-ready hierarchy gates"
+  ],
+  "note": "No code generated because reference-admission is currently a hard failure. This plan is a resumable design proposal only."
+}

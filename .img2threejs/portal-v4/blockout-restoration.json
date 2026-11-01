@@ -1,0 +1,6 @@
+{
+  "reason": "Preserve historical blockout evidence after shared temporary capture basename was reused. Re-rendered same four actual macro geometries, original10-sided plinth and original map-stripped shader.",
+  "expectedRenderHash": "f2b74242c34d614d",
+  "restoredRenderHash": "f2b74242c34d614d",
+  "hashMatches": true
+}

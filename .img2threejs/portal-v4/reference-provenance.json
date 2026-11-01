@@ -1,0 +1,19 @@
+{
+  "source": "/workspace/sites/ara-events-studio/dist/assets/portal/poster.webp",
+  "sourceDimensions": [
+    1440,
+    810
+  ],
+  "crop": [
+    550,
+    0,
+    1380,
+    780
+  ],
+  "output": "reference-portal.png",
+  "transforms": [
+    "WebP decode to RGB",
+    "axis-aligned crop, no semantic image changes"
+  ],
+  "purpose": "Isolate the architectural prop and plinth from the wider background scene"
+}

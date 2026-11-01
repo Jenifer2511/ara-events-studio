@@ -1,0 +1,97 @@
+{
+  "mapCount": 15,
+  "bytes": 1590865,
+  "gpuRgba8WithMipsBytes": 17825792.0,
+  "items": [
+    {
+      "file": "/assets/atmosphere/materials/production/brass_height.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 22207
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/ivory_roughness.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 173563
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/brass_ao.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 16063
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/ivory_ao.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 84674
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/brass_normal.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 97523
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/brass_roughness.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 52286
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/ivory_normal.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 389093
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/stone_roughness.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 130337
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/brass_albedo.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 22008
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/stone_normal.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 301017
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/stone_height.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 46843
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/ivory_albedo.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 63205
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/ivory_height.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 59993
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/stone_ao.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 61428
+    },
+    {
+      "file": "/assets/atmosphere/materials/production/stone_albedo.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 70625
+    }
+  ]
+}

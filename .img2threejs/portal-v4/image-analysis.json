@@ -1,0 +1,87 @@
+{
+  "scope": "Approximate/stylized low-poly architectural portal prop, not exact engraving reconstruction or manufacturing geometry. Single-view hidden surfaces are inferred. Three photo planes are presentation props outside reference reconstruction.",
+  "identification": {
+    "type": "arched double-leaf decorative portal on low plinth",
+    "primaryDomain": "object",
+    "confidence": 0.96
+  },
+  "form": {
+    "observed": "Bilateral arch silhouette, two vertical leaves, narrow central seam, low elliptical plinth.",
+    "inferredProportions": "Set door width2.8,height3.75,semicircle radius1.4,straight jamb2.35; proportions are an approximate image-derived ratio, not measured dimensions.",
+    "symmetry": "bilateral reflection across x=0"
+  },
+  "hierarchy": {
+    "macro": [
+      "frame",
+      "leftDoor",
+      "rightDoor",
+      "plinth"
+    ],
+    "meso": [
+      "leftHingePivot",
+      "rightHingePivot",
+      "door panels",
+      "perimeter brass trim",
+      "central brass seam trim"
+    ],
+    "micro": [
+      "shallow branching relief stems",
+      "simplified leaf motifs",
+      "rim bevel",
+      "base floral clusters"
+    ]
+  },
+  "relationships": [
+    "door leaves sit within surrounding arch; closed leaves meet at x=0",
+    "each leaf attaches at outside vertical jamb through inferred y-axis hinge",
+    "door bottom sits flush above plinth top",
+    "shallow relief lies on each outward-facing leaf",
+    "small flower clusters overlap lower lateral corners"
+  ],
+  "materials": [
+    {
+      "id": "ivory",
+      "observed": "Warm high-value low-saturation dielectric surface with shallow irregular relief and broad diffuse highlights.",
+      "inference": "Satin plaster or painted wood; metalness0,roughness0.65-0.8,not exact PBR extraction."
+    },
+    {
+      "id": "brass",
+      "observed": "Narrow warm ochre perimeter and seam lines with brighter edge highlights.",
+      "inference": "Metal trim,metalness1,roughness0.3-0.4; exact alloy unknown."
+    },
+    {
+      "id": "plinth",
+      "observed": "Pale stone-like base with small dark pores.",
+      "inference": "Matte limestone; metalness0,roughness0.85."
+    }
+  ],
+  "identityFeatures": [
+    "rounded upper arch",
+    "distinct two-leaf central seam",
+    "warm ivory panel fields",
+    "thin brass outline",
+    "shallow botanical relief",
+    "low elliptical plinth",
+    "low corner flower clusters"
+  ],
+  "uncertainties": [
+    "rear and side faces hidden",
+    "hinges and door thickness not visible",
+    "upper frame construction ambiguous",
+    "ornament depth and botanical shapes cannot be recovered exactly",
+    "single image lighting cannot determine exact roughness/albedo"
+  ],
+  "viewpointRequirements": [
+    "front closed",
+    "front open",
+    "right azimuth90",
+    "rear azimuth180",
+    "left azimuth270"
+  ],
+  "performanceContract": {
+    "trianglesMax": 20000,
+    "reusableMaterials": true,
+    "particles": false,
+    "shadowMaps": false
+  }
+}

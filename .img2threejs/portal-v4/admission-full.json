@@ -1,0 +1,16 @@
+{
+  "admitted": false,
+  "reasons": [
+    "foreground coverage 0.975 > 0.97 (no background to segment against — silhouette not isolable)"
+  ],
+  "provenance": {
+    "viewpoint": "front",
+    "sourcePath": "/workspace/sites/ara-events-studio/.img2threejs/portal-v4/reference-full.png",
+    "width": 1440,
+    "height": 810,
+    "foregroundCoverage": 0.9753,
+    "largestComponentFraction": 1.0,
+    "pHash": 17216697190820124864,
+    "duplicateOfHash": null
+  }
+}
